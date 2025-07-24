@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
   //imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet, NavComponent, HomeComponent]
+  imports: [RouterOutlet, NavComponent]
 })
 export class AppComponent implements OnInit {
   private accountService = inject(AccountService);
